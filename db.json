@@ -1,0 +1,132 @@
+{
+  "projects" : [
+    {
+      "id": 1,
+      "type" : "project",
+      "description" : "Project 1",
+      "tasks": [
+          {
+            "id": 1,
+            "title" : "task1",
+            "status" : "Open",
+            "DateD" : "2015-01-01",
+            "DateF" : "2015-01-01",
+            "project": {
+              "id": 1,
+              "type" : "project",
+              "description" : "Project 1",
+              "tasks": []
+            }
+
+          },
+        {
+          "id": 2,
+          "title" : "task2",
+          "status" : "Closed",
+          "DateD" : "2024-01-01",
+          "DateF" : "2024-01-01",
+          "project": {
+            "id": 1,
+            "type" : "project",
+            "description" : "Project 1",
+            "tasks": []
+          }
+
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type" : "project2",
+      "description" : "Project 2",
+      "tasks": [
+        {
+          "id": 3,
+          "title" : "task3",
+          "status" : "In Progress",
+          "DateD" : "2023-01-01",
+          "DateF" : "2023-01-01",
+          "project": {
+            "id": 2,
+            "type" : "project2",
+            "description" : "Project 2",
+            "tasks": []
+          }
+
+        },
+        {
+          "id": 4,
+          "title" : "task4",
+          "status" : "Closed",
+          "DateD" : "2022-01-01",
+          "DateF" : "2022-01-01",
+          "project": {
+            "id": 2,
+            "type" : "project2",
+            "description" : "Project 2",
+            "tasks": []
+          }
+
+        }
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title" : "task1",
+      "status" : "Open",
+      "DateD" : "2015-01-01",
+      "DateF" : "2015-01-01",
+      "project": {
+        "id": 1,
+        "type" : "project",
+        "description" : "Project 1",
+        "tasks": []
+      }
+
+    },
+    {
+      "id": 2,
+      "title" : "task2",
+      "status" : "Closed",
+      "DateD" : "2024-01-01",
+      "DateF" : "2024-01-01",
+      "project": {
+        "id": 1,
+        "type" : "project",
+        "description" : "Project 1",
+        "tasks": []
+      }
+
+    },
+    {
+      "id": 3,
+      "title" : "task3",
+      "status" : "In Progress",
+      "DateD" : "2023-01-01",
+      "DateF" : "2023-01-01",
+      "project": {
+        "id": 2,
+        "type" : "project2",
+        "description" : "Project 2",
+        "tasks": []
+      }
+
+    },
+    {
+      "id": 4,
+      "title" : "task4",
+      "status" : "Closed",
+      "DateD" : "2022-01-01",
+      "DateF" : "2022-01-01",
+      "project": {
+        "id": 2,
+        "type" : "project2",
+        "description" : "Project 2",
+        "tasks": []
+      }
+
+    }
+  ]
+}

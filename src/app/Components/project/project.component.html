@@ -1,0 +1,7 @@
+<div *ngFor="let project of projects">
+  <b>id : </b> {{project.id}}<br>
+  <b>Type : </b>{{project.type}}<br>
+  <b>Description</b>{{project.description}}
+  <button class="btn btn-primary" style="float: right" [routerLink]="['/add',project.id]">addTask</button>
+  <hr>
+</div>

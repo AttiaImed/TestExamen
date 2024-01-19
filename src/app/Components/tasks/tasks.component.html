@@ -1,0 +1,11 @@
+<div *ngFor="let task of tasks">
+  <div class="card">
+    <h5 class="card-header">{{task.title}}</h5>
+    <div class="card-body">
+      <h5 class="card-title">{{task.status}}</h5>
+      <p class="card-text">{{task.DateD}}</p>
+      <p class="card-text">{{task.DateF}}</p>
+      <a href="#" class="btn btn-secondary" [routerLink]="['/details',task.id]">Details</a>
+    </div>
+  </div>
+</div>
