@@ -9,18 +9,9 @@ import {Router} from "@angular/router";
   styleUrls: ['./wassef.component.css']
 })
 export class WassefComponent {
-  p : Project[] = [];
-  task !: Tasks;
   constructor(private htpc : HttpClient,private route : Router) {
-    // this.htpc.post("http://localhost:3000/projects").subscribe(
-    //   (data)=>{
-    //     this.p = data;
-    // //   }
-    // )
-    this.task.status ="TO DO";
   }
 
   goto(){
-    this.route.navigate(["/tasks"])
   }
 }

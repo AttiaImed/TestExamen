@@ -1,12 +1,12 @@
 <form [formGroup]="loginForm" (ngSubmit)="add()" >
   <div class="form-group">
-    <label for="username">nom d'utilisateur :</label>
+    <label for="username">nom utilisation :</label>
     <input type="text" class="form-control" id="username" formControlName="username" aria-describedby="username" placeholder="Enter username">
   </div>
   <div class="mb-3">
     <div class="alert alert-danger" *ngIf="username!.invalid && (username!.touched || username!.dirty)">
       <div *ngIf="username!.errors!['required']">username is required ! </div>
-      <div *ngIf="username!.errors!['minlength']">username must be more the 3 caracters ! </div>
+      <div *ngIf="username!.errors!['minlength']">username must be more the 3 characters ! </div>
     </div>
   </div>
   <div class="form-group">
